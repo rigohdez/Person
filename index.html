@@ -5,22 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Person App</title>
     <!-- BOOTSTRAP 4 -->
-    <link rel="stylesheet" href="bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="bootstrap.min.css"> -->
+    <link rel="stylesheet" href="https://bootswatch.com/4/litera/bootstrap.min.css">
 </head>
 <body>
     <!-- NAVIGATION -->
-    <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
-        <a class="navbar-brand" href="#">Person App</a>
+    <nav class="navbar navbar-light navbar-expand-lg bg-primary " >
+        <a class="navbar-brand" href="/">Person App</a>
     </nav>
 
     <div class="container">
+        <!-- APPLICATION -->
         <div id="app" class="row pt-5">
             <div class="class-md-4">
                 <div class="card">
-                    <div class="header-card">
+                    <div class="card-header bg-primary">
                         <h4>Add a Person</h4>
                     </div>
-                    <form id="person-form" class="card-body">
+                    <form id="person-form" class="card-body" >
+                        <div class="form-group">
+                            <input type="text" name="" id="first-name" placeholder="First-Name" class="form-control mb-3">
+                            <input type="text" name="" id="last-name" placeholder="Last-Name" class="form-control mb-3">
+                            <input type="text" name="" id="gender" placeholder="Gender" class="form-control mb-3">
+                            <input type="text" name="" id="dni" placeholder="DNI" class="form-control mb-3">
+                            <input type="text" name="" id="email" placeholder="Email" class="form-control mb-3">
+                        </div>
                     </form>
                 </div>
             </div>

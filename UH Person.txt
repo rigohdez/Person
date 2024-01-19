@@ -1,0 +1,15 @@
+1.- crear directorio person y archivos index.html e index.js y añadir al resitorio 
+	remoto
+2.- crear estructura simple con html 5 y agregar links de boostrap 4 desde 	bootswatch y script del archivo index.js y cambiar el titulo a Persona App
+3.- crear navegacion con etiqueta nav y agregar clase navbar
+4.- crear un div con la clase container donde estara la aplicacion agregar un div 
+	en el que estara la app
+5.- crear 2 div uno con un ancho de 4 columnas para el formulario y otro con ancho
+	de 8 columnas para listar los registros
+6.- crear un div con la clase card y dentro crear un div con la clase hearder-card
+	y agregar un formulario con la etiqueta form y agreagar un id. 
+	En el hearder-card agregar el titulo del formulario
+7.- crear los input dentro de un div con la clase form-group, dar un espaciado 
+	entre inputs, dar un tipo correspondiente al tipo de dato que van a
+	guardar, agregar un placeholder y la clase form-control a cada uno
+8.- crear un input tipo boton y agregar las clases btn-primary y btn-block
